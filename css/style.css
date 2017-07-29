@@ -301,12 +301,12 @@ code {
 	}
 	.article__heading_h1 {
 		font-size: 26px;
-		line-height: 42px;
+		line-height: 36px;
 		margin-top: 5px;
 	}
 	.article__heading_h2 {
 		font-size: 22px;
-		line-height: 30px;
+		line-height: 28px;
 		margin-top: 5px;
 	}
 	.article__heading_h3 {
@@ -323,5 +323,13 @@ code {
 	}
 	.contacts-list_type-print{
 		display: block;
+	}
+	.desc-list {
+		font-size: 14px;
+		line-height: 20px;
+		margin: 0px 0px 10px 20px;
+	}
+	.footer {
+		display: none;
 	}
 }
