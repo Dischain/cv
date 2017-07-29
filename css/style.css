@@ -147,14 +147,29 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	line-height: 20px;
 	margin: 0px 0px 10px 20px;
 }
+
+.desc-list__item {
+	display: block;
+}
+
+.desc-list__item_margin-small {	
+	margin: 2px 0px;
+}
+
+.desc-list__item_margin-large {
+	margin: 10px 0px;
+}
+
 .desc-list__title {
 	font-weight: bold;
 }
+
 .desc-list__definition {
-	margin-left: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	max-width: 890px;
+}
+
+.inline-block {
+	display: inline-block;
 }
 
 .scroll-to-top {
@@ -177,6 +192,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .contacts-list a {
 	text-decoration: none;
+}
+.contacts-list_type-normal{
+	display: block;
+}
+.contacts-list_type-print{
+	display: none;
 }
 .contacts-list a:hover {
 	color: red;
@@ -242,6 +263,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 code {
 	background-color: rgba(27, 31, 35, 0.05);
 	font-size: 0.8em;
+	font-family: monospace;
 	padding: 0.2em;
 	border-radius: 3px;
 }
@@ -275,10 +297,10 @@ code {
 		font-family: 'B20SansSemiCondensed', Helvetica, sans-serif;
 		font-weight: 300;
 		color: #6897c5;
-		margin-bottom: 5px;
+		margin: 5px 0px;
 	}
 	.article__heading_h1 {
-		font-size: 32px;
+		font-size: 26px;
 		line-height: 42px;
 		margin-top: 5px;
 	}
@@ -288,12 +310,18 @@ code {
 		margin-top: 5px;
 	}
 	.article__heading_h3 {
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 24px;
 		margin-top: 5px;
 	}
 	.contacts-list {
 		margin-left: 30px;
 		padding-bottom: 0px;
+	}
+	.contacts-list_type-normal{
+		display: none;
+	}
+	.contacts-list_type-print{
+		display: block;
 	}
 }
